@@ -25,6 +25,9 @@ const loader = utils.query(".loader");
 // For select change current playlist
 const current_playlist = utils.get_by_id("playlist__id");
 
+// For authentication
+const auth_button = utils.get_by_id("authentication__id");
+
 // For quote
 const quote_display = utils.get_by_id("quote");
 
